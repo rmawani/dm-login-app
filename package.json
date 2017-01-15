@@ -1,10 +1,10 @@
 {
-    "name": "mean-stack-registration-login-example",
+    "name": "dm-login-app",
     "version": "1.0.0",
-    "description": "MEAN Stack User Registration and Login Example Application",
+    "description": "MEAN Stack User Registration and Login Application",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/mean-stack-registration-login-example.git"
+        "url": "https://github.com/rmawani/dm-login-app.git"
     },
     "dependencies": {
         "bcryptjs": "^2.1.0",
