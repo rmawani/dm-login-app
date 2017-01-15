@@ -1,5 +1,5 @@
 ﻿{
-    "connectionString": ",mongodb://heroku_wh1qmc2p:Povray1!@ds111559.mlab.com:11559/heroku_wh1qmc2p",
+    "connectionString": "mongodb://heroku_wh1qmc2p:Povray1!@ds111559.mlab.com:11559/heroku_wh1qmc2p",
     "apiUrl": "https://api.mlab.com/api/1",
     "secret": "wgU1kw3c-Cz6dE6j0Wts4Aw7e6PkaCrw"
 }
