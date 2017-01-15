@@ -1,5 +1,5 @@
 ﻿{
     "connectionString": "mongodb://heroku_wh1qmc2p:Povray1!@ds111559.mlab.com:11559/heroku_wh1qmc2p",
-    "apiUrl": "https://dm-login-app.herokuapp.com/",
+    "apiUrl": "http://Localhost/",
     "secret": "Povray1!"
 }
