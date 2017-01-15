@@ -1,5 +1,5 @@
 ﻿{
     "connectionString": "mongodb://localhost/dm-login-app",
-    "apiUrl": "http://localhost:3000/api",
+    "apiUrl": "http://localhost/api",
     "secret": "Povray1!"
 }
