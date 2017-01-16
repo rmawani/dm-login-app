@@ -19,6 +19,7 @@ router.post('/', function (req, res) {
         }
 
         if (response.statusCode !== 200) {
+            console.log(body);
             return res.render('register', {
                 error: response.body,
                 firstName: req.body.firstName,
