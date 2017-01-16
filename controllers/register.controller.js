@@ -15,12 +15,13 @@ router.post('/', function (req, res) {
         json: true
     }, function (error, response, body) {
         if (error) {
-            return res.render('register', { error: 'An error occurred' });
             console.log(error);
+            return res.render('register', { error: 'An error occurred' });
         }
 
         if (response.statusCode !== 200) {
             console.log(body);
+            console.log(response);
             return res.render('register', {
                 error: response.body,
                 firstName: req.body.firstName,
