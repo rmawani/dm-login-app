@@ -11,7 +11,7 @@ router.post('/', function (req, res) {
     // register using api to maintain clean separation between layers
     request.post({
         url: config.apiUrl + '/users/register',
-        form: encodeURI(req.body),
+        form: toString(req.body),
         json: true
     }, function (error, response, body) {
         console.log(req.body);
