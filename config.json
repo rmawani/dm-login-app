@@ -1,5 +1,5 @@
 ﻿{
-    "connectionString": "mongodb://rmawani:Povray1!@ds111489.mlab.com:11489/dm-login",
+    "connectionString": "mongodb://rmawani:Povray1!@ds111559.mlab.com:11559/dm-login",
     "apiUrl": "https://api.mlab.com/api/1",
     "secret": "xLWJ6XCabixazKhG1_4Sd4iYM89twHig"
 }
