@@ -12,7 +12,8 @@ router.post('/', function (req, res) {
     request.post({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
         url: config.apiUrl + '/users/register',
-        form: req.body,
+        //form: req.body,
+        form: { firstName: req.body.firstName, lastName: req.body.lastName, username: req.body.username },
         json: true
     }, function (error, response, body) {
         //console.log(req.body);
@@ -21,7 +22,7 @@ router.post('/', function (req, res) {
         }
 
         if (response.statusCode !== 200) {
-            //console.log(body);
+            console.log(body);
             return res.render('register', {
                 error: response.body,
                 firstName: req.body.firstName,
