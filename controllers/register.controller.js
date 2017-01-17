@@ -10,7 +10,7 @@ router.get('/', function (req, res) {
 router.post('/', function (req, res) {
     // register using api to maintain clean separation between layers
     request.post({
-        headers: {'content-type' : 'application/x-www-form-urlencoded'},
+        headers: {'content-type' : 'application/json'},
         url: config.apiUrl + '/users/register',
         //form: req.body,
         form: { firstName: req.body.firstName, lastName: req.body.lastName, username: req.body.username },
