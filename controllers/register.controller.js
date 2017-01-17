@@ -16,7 +16,7 @@ router.post('/', function (req, res) {
         form: { firstName: req.body.firstName, lastName: req.body.lastName, username: req.body.username },
         json: true
     }, function (error, response, body) {
-        //console.log(req.body);
+        console.log(req.body);
         if (error) {
             return res.render('register', { error: 'An error occurred' });
         }
