@@ -39,6 +39,7 @@
         }
 
         function Update(user) {
+            console.log('data being updated');
             return $http.put('/api/users/' + user._id, user).then(handleSuccess, handleError);
         }
 
