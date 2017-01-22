@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93f22b6-fff5-4916-bcce-f71a3a67af87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-services/user.service.js" afterPath="$PROJECT_DIR$/app/app-services/user.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/api/users.controller.js" afterPath="$PROJECT_DIR$/controllers/api/users.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/login.controller.js" afterPath="$PROJECT_DIR$/controllers/login.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register.controller.js" afterPath="$PROJECT_DIR$/controllers/register.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/user.service.js" afterPath="$PROJECT_DIR$/services/user.service.js" />
     </list>
     <ignored path="dm-login-app.iws" />
@@ -41,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -81,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.service.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.service.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/user.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="208">
+              <caret line="28" column="65" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -121,8 +115,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/app-services/user.service.js" />
         <option value="$PROJECT_DIR$/controllers/register.controller.js" />
-        <option value="$PROJECT_DIR$/services/user.service.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/services/user.service.js" />
       </list>
     </option>
   </component>
@@ -389,12 +383,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485019360099</updated>
       <workItem from="1485019364294" duration="2033000" />
-      <workItem from="1485040587819" duration="3672000" />
+      <workItem from="1485040587819" duration="3864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5705000" />
+    <option name="totallyTimeSpent" value="5897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -562,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/user.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/api/users.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -590,6 +576,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/user.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="65" />
           <folding />
         </state>
       </provider>

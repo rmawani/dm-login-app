@@ -26,7 +26,8 @@ function authenticate(username, password) {
 
         if (user && bcrypt.compareSync(password, user.hash)) {
             // authentication successful
-            deferred.resolve(jwt.sign({ sub: user._id }, config.secret));
+            //deferred.resolve(jwt.sign({ sub: user._id }, config.secret));
+            deferred.resolve(jwt.sign({ sub: user._id }, process.env.SECRET));
         } else {
             // authentication failed
             deferred.resolve();
