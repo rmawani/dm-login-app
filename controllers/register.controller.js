@@ -12,7 +12,7 @@ router.post('/', function (req, res) {
     request.post({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
         //url: config.apiUrl + '/users/register',
-        url: process.env.APIURL + '/users/register',
+        url: process.env.API_URL + '/users/register',
         form: req.body,
         json: true
     }, function (error, response, body) {
