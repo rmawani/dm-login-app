@@ -122,6 +122,7 @@ function update(_id, userParam) {
         var set = {
             firstName: userParam.firstName,
             lastName: userParam.lastName,
+            cellPhoneNumber: userParam.cellPhoneNumber,
             username: userParam.username,
         };
 

@@ -28,6 +28,7 @@ router.post('/', function (req, res) {
                 error: response.body,
                 firstName: req.body.firstName,
                 lastName: req.body.lastName,
+                cellPhoneNumber: req.body.cellPhoneNumber,
                 username: req.body.username
             });
         }
